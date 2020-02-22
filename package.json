@@ -1,6 +1,6 @@
 {
   "name": "z-animate-number",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": false,
   "description": "基于 Vue 的数字动画组件",
   "main": "lib/z-animate-number.umd.min.js",
@@ -9,13 +9,6 @@
     "type": "git",
     "url": "https://github.com/zhicaizhu123/ZAnimateNumber.git"
   },
-  "keywords": [
-    "drag",
-    "draggable",
-    "vue",
-    "拖拽排序",
-    "拖拽"
-  ],
   "author": {
     "name": "Peter Chu",
     "email": "zhicaizhu123@126.com"
