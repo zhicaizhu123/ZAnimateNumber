@@ -1,11 +1,15 @@
 {
   "name": "z-animate-number",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "基于 Vue 的数字动画组件",
+  "main": "lib/z-animate-number.umd.min.js",
+  "keyword": "animate-number animatenumber animateNumber AnimateNumber",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name z-animate-number --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",
