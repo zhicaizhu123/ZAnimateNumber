@@ -1,11 +1,11 @@
 <template>
   <span>
-    {{displayValue}}
+    {{ displayValue }}
   </span>
 </template>
 
-<script lang='ts'>
-import { requestAnimationFrame, cancelAnimationFrame } from "../utils";
+<script lang="ts">
+import { requestAnimationFrame, cancelAnimationFrame } from "./utils";
 
 export default {
   name: "ZAnimateNumber",
@@ -39,7 +39,7 @@ export default {
       type: String,
       default: ","
     },
-    prifix: {
+    prefix: {
       type: String,
       default: ""
     },
@@ -48,6 +48,10 @@ export default {
       default: ""
     },
     useEasing: {
+      type: Boolean,
+      default: true
+    },
+    easingFn: {
       type: Function,
       default(t, b, c, d) {
         return (c * (-Math.pow(2, (-10 * t) / d) + 1) * 1024) / 1023 + b;
@@ -208,4 +212,4 @@ export default {
 };
 </script>
 
-<style lang='scss' scoped></style>
+<style lang="scss" scoped></style>
