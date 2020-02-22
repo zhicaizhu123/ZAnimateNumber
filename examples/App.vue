@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <ZAnimateNumber :end="9999" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { ZAnimateNumber } from "../packages";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    ZAnimateNumber
   }
-}
+};
 </script>
 
 <style>
