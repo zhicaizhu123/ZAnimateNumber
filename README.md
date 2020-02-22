@@ -5,7 +5,7 @@
 ### 安装
 
 ```sh
-npm run -S z-animate-number
+npm i -S z-animate-number
 ```
 
 ### 使用
@@ -64,7 +64,7 @@ components: {
 ```
 
 - 效果图  
-  ![image](https://note.youdao.com/yws/public/resource/3cf1f986da86e945691b281e19c02ca2/E22A5A485665456A97297F504F3EF1DD?ynotemdtimestamp=1582353027907)
+  ![image](https://note.youdao.com/yws/public/resource/3cf1f986da86e945691b281e19c02ca2/E22A5A485665456A97297F504F3EF1DD?ynotemdtimestamp=1582370891245)
 
 #### 添加前缀
 
@@ -81,7 +81,7 @@ components: {
 ```
 
 - 效果图  
-  ![image](https://note.youdao.com/yws/public/resource/3cf1f986da86e945691b281e19c02ca2/571ECB428BCB45E4AEB6B73C4A241C72?ynotemdtimestamp=1582353027907)
+  ![image](https://note.youdao.com/yws/public/resource/3cf1f986da86e945691b281e19c02ca2/571ECB428BCB45E4AEB6B73C4A241C72?ynotemdtimestamp=1582370891245)
 
 #### 添加后缀
 
@@ -97,7 +97,7 @@ components: {
 ```
 
 - 效果图  
-  ![image](https://note.youdao.com/yws/public/resource/3cf1f986da86e945691b281e19c02ca2/82C2E2A0B9334EFAAA6EF0E826462954?ynotemdtimestamp=1582353027907)
+  ![image](https://note.youdao.com/yws/public/resource/3cf1f986da86e945691b281e19c02ca2/82C2E2A0B9334EFAAA6EF0E826462954?ynotemdtimestamp=1582370891245)
 
 #### 设置动画时间
 
@@ -113,4 +113,4 @@ components: {
 ```
 
 - 效果图  
-  ![image](https://note.youdao.com/yws/public/resource/3cf1f986da86e945691b281e19c02ca2/E46E65E654714CCBBBB140966307B488?ynotemdtimestamp=1582353027907)
+  ![image](https://note.youdao.com/yws/public/resource/3cf1f986da86e945691b281e19c02ca2/E46E65E654714CCBBBB140966307B488?ynotemdtimestamp=1582370891245)

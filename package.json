@@ -1,6 +1,6 @@
 {
   "name": "z-animate-number",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "private": false,
   "description": "基于 Vue 的数字动画组件",
   "main": "lib/z-animate-number.umd.min.js",
